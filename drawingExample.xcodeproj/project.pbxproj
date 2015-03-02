@@ -13,6 +13,8 @@
 		B72E4CBE1AA4607A0002B8C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72E4CBD1AA4607A0002B8C8 /* Images.xcassets */; };
 		B72E4CC11AA4607A0002B8C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72E4CBF1AA4607A0002B8C8 /* LaunchScreen.xib */; };
 		B72E4CCD1AA4607B0002B8C8 /* drawingExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E4CCC1AA4607B0002B8C8 /* drawingExampleTests.swift */; };
+		B75A00D31AA46343006D6401 /* DrawClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A00D21AA46343006D6401 /* DrawClass.swift */; };
+		B75A00D51AA4668D006D6401 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A00D41AA4668D006D6401 /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B72E4CC61AA4607A0002B8C8 /* drawingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72E4CCB1AA4607B0002B8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B72E4CCC1AA4607B0002B8C8 /* drawingExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawingExampleTests.swift; sourceTree = "<group>"; };
+		B75A00D21AA46343006D6401 /* DrawClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawClass.swift; sourceTree = "<group>"; };
+		B75A00D41AA4668D006D6401 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				B72E4CBD1AA4607A0002B8C8 /* Images.xcassets */,
 				B72E4CBF1AA4607A0002B8C8 /* LaunchScreen.xib */,
 				B72E4CB41AA4607A0002B8C8 /* Supporting Files */,
+				B75A00D21AA46343006D6401 /* DrawClass.swift */,
+				B75A00D41AA4668D006D6401 /* Line.swift */,
 			);
 			path = drawingExample;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72E4CB91AA4607A0002B8C8 /* ViewController.swift in Sources */,
+				B75A00D51AA4668D006D6401 /* Line.swift in Sources */,
 				B72E4CB71AA4607A0002B8C8 /* AppDelegate.swift in Sources */,
+				B75A00D31AA46343006D6401 /* DrawClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				B72E4CD21AA4607B0002B8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B72E4CD31AA4607B0002B8C8 /* Build configuration list for PBXNativeTarget "drawingExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				B72E4CD51AA4607B0002B8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
