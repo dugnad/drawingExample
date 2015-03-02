@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var drawClass : DrawClass!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +23,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clearChoice() {
-        
+        var myCanvas = drawClass
+        myCanvas.lines = []
+        myCanvas.setNeedsDisplay()
     }
 
 }
